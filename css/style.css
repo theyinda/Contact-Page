@@ -188,6 +188,13 @@ body {
       width: 650px;
       
     }
+    .form-heading{
+      color: #573F7B;
+      font-weight: 600;
+      padding: 20px 0;
+      font-size: 30px;
+      text-align: center;
+    }
     .contact{
       position: absolute;
       top:500px;
@@ -224,6 +231,13 @@ body {
       margin-top: 30px;
       margin-right: -50px;
       
+    }
+    .form-heading{
+      color: #573F7B;
+      font-weight: 600;
+      padding: 20px 0;
+      font-size: 30px;
+      text-align: center;
     }
     .contact{
       position: absolute;
