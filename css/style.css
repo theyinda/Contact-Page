@@ -134,24 +134,82 @@ body {
     border-radius: 10px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 796px) {
   .container{
-    width: auto;
-    height: auto;
-    
+    width: 600px;
+    height: 406px;
+    margin-right: 40px;
+    margin-top: 40px;
   }
+  .contact{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width: 350px;
+    height: 350px;
+    background-color: #9272C2;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+  .form-control {
+    background-color:rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 0;
+    border: none;
+  }
+  
 } 
 
-/* Small devices (tablets, 768px and up): @media (min-width: @screen-sm-min) { ... }
-
-Medium devices (desktops, 992px and up): @media (min-width: @screen-md-min) { ... }
-
-Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg-min) { ... }
-@media(min-width:576px){} @media(min-width:768px){} @media(min-width:992px){} @media(min-width:1200px){}
-xs = Extra small <576px. Max container width None (auto)
-sm = Small ≥576px. Max container width 540px.
-md = Medium ≥768px. Max container width 720px.
-lg = Large ≥992px. Max container width 960px.
-xl = Extra large ≥1200px. Max container width 1140px.
-Dec 30, 2019
-*/
+  @media only screen and (max-width: 767px) {
+    .container{
+      width: 400px;
+      height: 406px;
+      margin-right: 20px;
+      margin-top: 40px;
+    }
+    .contact{
+      position: absolute;
+      top:500px;
+      left: 10px;
+      width: 400px;
+      height: 350px;
+      background-color: #9272C2;
+      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+    }
+    .form-control {
+      background-color:rgba(255, 255, 255, 0.95);
+      border-radius: 5px;
+      width: 250px;
+      margin-left: 0px;
+      border: none;
+    }
+    
+  }   
+   @media only screen and (max-width: 425px) {
+    .container{
+      width: 350px;
+      height: 350px;
+      margin-right: 30px;
+      margin-top: 40px;
+    }
+    .contact{
+      position: absolute;
+      top:500px;
+      left: 8px;
+      width: 350px;
+      height: 350px;
+      background-color: #9272C2;
+      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+    }
+    .form-control {
+      background-color:rgba(255, 255, 255, 0.95);
+      border-radius: 5px;
+      width: 250px;
+      margin-left: 0px;
+      border: none;
+    }
+    
+  }    
