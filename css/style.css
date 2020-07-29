@@ -18,15 +18,14 @@ body {
 }
 .container{
   width: 70%;
-  height: 786px;
-  position: relative;
+  height: auto;
 }
 .contact{
   position: absolute;
   top:50px;
   right: 150px;
   width: 350px;
-  height: 350px;
+  height: 400px;
   background-color: #9272C2;
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -61,16 +60,15 @@ body {
   color: #573F7B;
   font-weight: 600;
   padding: 20px 0;
-}
-.get{
-    margin:0 auto;
+  font-size: 35px;
 }
 .contact-page{
   position: relative;
+  width: 90%;
   background-color: #F5F4FA;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  margin-top: 30px;
+  margin: 30px auto;
   
 }
 .form-control {
@@ -94,114 +92,32 @@ body {
 .footer-icons {
   margin-top:10px;
 }
-@media only screen and (max-width: 1200px) {
-  .container{
-    width: 75%;
-    height: 986px;
-    position: relative;
-  }
-}
-@media only screen and (max-width: 1020px) {
-  .container{
-    width: 75%;
-    height: 406px;
-    margin-top: 40px;
-  }
-  .contact{
-    position: absolute;
-    top:50px;
-    right: 90px;
-    width: 350px;
-    height: 350px;
-    background-color: #9272C2;
-    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-  }
-}
- @media only screen and (max-width: 850px) {
-  .container{
-    width: 85%;
-    height: 406px;
-    margin-top: 40px;
-  }
-  .contact{
-    position: absolute;
-    top:50px;
-    right: 50px;
-    width: 350px;
-    height: 350px;
-    background-color: #9272C2;
-    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-  }
-}
-@media only screen and (max-width: 796px) {
-  .container{
-    max-width: 71%;
-    height: 406px;
-    margin-top: 40px;
-    margin-left: 20%;
-  }
-  
-  .contact-page{
-    position: relative;
-    background-color: #F5F4FA;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: -70px;
-    
-  }
-  .contact{
-    position: absolute;
-    top:50px;
-    right: 50px;
-    width: 350px;
-    height: 350px;
-    background-color: #9272C2;
-    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-  }
-  .form-control {
-    background-color:rgba(255, 255, 255, 0.95);
-    border-radius: 5px;
-    width: 250px;
-    margin-left: 0;
-    border: none;
-  }
-  
-} 
 
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 2560px) {
+    
     .container{
+      width: 100vh;
+      
+    }
+    .contact-page{
       width: 100%;
-      height: 506px;
-      margin-top: 40px;
-    }
-    .contact-page{
-      position: relative;
       background-color: #F5F4FA;
       box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
-      margin-top: 30px;
-      margin-left:-120px;
-      width: 650px;
+      margin: 20px auto;
       
     }
     .form-heading{
       color: #573F7B;
       font-weight: 600;
       padding: 20px 0;
-      font-size: 30px;
+      font-size: 35px;
+      font-weight: 600;
       text-align: center;
     }
     .contact{
-      position: absolute;
-      top:500px;
-      left: 10px;
-      width: 400px;
-      height: 350px;
-      margin:0 auto;
+      margin: 8px auto 15px auto;
+      width: 42vh;
       background-color: #9272C2;
       box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
@@ -209,44 +125,54 @@ body {
     .form-control {
       background-color:rgba(255, 255, 255, 0.95);
       border-radius: 5px;
-      width: 570px;
-      margin-left: 0px;
+      width: 40vh;
+      margin: auto;
       border: none;
+    }
+    .send-btn {
+      color: #fff !important;
+      background-color:#9272C2;
+      border-radius: 5px;  
+      font-size: 20px;
+      padding: .313em 3.125em;
+      margin-left: 60px;
+  
+    }
+    .footer-icons {
+      margin-top: 10px;
     }
     
-  }   
-   @media only screen and (max-width: 662px) {
+  }  
+  
+  @media only screen and (max-width: 1024px) {
+    
     .container{
-      width:100%;
-      height: 350px;
-      margin-left: 20%;
-      margin-top: 40px;
+      width: 100vh;
+      margin: 0 auto;
+      
     }
     .contact-page{
       position: relative;
+      width: 90vw;
       background-color: #F5F4FA;
       box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
-      width: 600px;
-      margin-top: 30px;
-      margin-right: -50px;
+      margin: 20px 0;
       
     }
     .form-heading{
       color: #573F7B;
       font-weight: 600;
       padding: 20px 0;
-      font-size: 30px;
+      font-size: 35px;
+      font-weight: 600;
       text-align: center;
     }
     .contact{
       position: absolute;
-      margin:0 auto;
-      top:500px;
-      left: 5px;
-      right: 5px;
-      width: 350px;
-      height: 350px;
+      left: -30px;
+      margin: 8px auto 15px 10px;
+      width: 80%;
       background-color: #9272C2;
       box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
@@ -254,28 +180,114 @@ body {
     .form-control {
       background-color:rgba(255, 255, 255, 0.95);
       border-radius: 5px;
-      width: 500px;
-      margin-left: 0px;
+      width: 40vw;
+      margin: auto;
       border: none;
+    }
+    .send-btn {
+      color: #fff !important;
+      background-color:#9272C2;
+      border-radius: 5px;  
+      font-size: 20px;
+      padding: .313em 3.125em;
+      margin-left: 20px;
+  
+    }
+    .header{
+      font-size: 20px;
+      font-weight: 600;
+      padding-left: auto;
+    }
+    .icons{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    .icons p{
+      margin-bottom: 0;
+      margin-left: 25px;
+      font-size: 18px;
+      
+    
+    }
+    .icons img{
+      margin-left: 20px; 
+    }
+    .footer-icons {
+      margin-top: 10px;
     }
     
-  }    
-
-   @media only screen and (max-width: 498px) {
+  }        
+ 
+  @media only screen and (max-width: 767px) {
+    
     .container{
-      width:60%;
-      height: 350px;
-      margin-left: 30%;
-      margin-top: 40px;
+      width: 100vw;
+      
     }
     .contact-page{
-      position: relative;
+      
+      width: 100%;
       background-color: #F5F4FA;
       box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
-      width: 600px;
-      margin-top: 30px;
-      margin-right: -50px;
+      margin: 30px auto;
+      
+    }
+    .form-heading{
+      color: #573F7B;
+      font-weight: 600;
+      padding: 20px 0;
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .contact{
+      position: absolute;
+      margin: 20px auto;
+      top:500px;
+      left: 55px;
+      right: 15px;
+      width: 75%;
+      background-color: #9272C2;
+      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+    }
+    .form-control {
+      background-color:rgba(255, 255, 255, 0.95);
+      border-radius: 5px;
+      width: 45vh;
+      margin: auto;
+      border: none;
+    }
+    .send-btn {
+      color: #fff !important;
+      background-color:#9272C2;
+      border-radius: 5px;  
+      font-size: 20px;
+      padding: .313em 3.125em;
+      margin-left: 60px;
+  
+    }
+    .footer-icons {
+      margin-top: 10px;
+    }
+    
+  }        
+  @media only screen and (max-width: 414px) {
+    
+    .container{
+      width: 100vw;
+      
+    }
+    .contact-page{
+      position: relative;
+      max-width: 90vw;
+      background-color: #F5F4FA;
+      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      margin: 30px auto;
       
     }
     .form-heading{
@@ -287,12 +299,12 @@ body {
     }
     .contact{
       position: absolute;
-      margin:0 auto;
+      margin: 20px auto;
       top:500px;
-      left: 5px;
-      right: 5px;
-      width: 350px;
-      height: 350px;
+      left: 35px;
+      right: 15px;
+      width: 76vw;
+      max-height: 350px;
       background-color: #9272C2;
       box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
@@ -300,9 +312,21 @@ body {
     .form-control {
       background-color:rgba(255, 255, 255, 0.95);
       border-radius: 5px;
-      width: 500px;
-      margin-left: 0px;
+      width: 70vw;
+      margin: auto;
       border: none;
+    }
+    .send-btn {
+      color: #fff !important;
+      background-color:#9272C2;
+      border-radius: 5px;  
+      font-size: 20px;
+      padding: .313em 3.125em;
+      margin-bottom: 30px;
+      margin-left: 65px;
+    }
+    .footer-icons {
+      margin-top: 0px;
     }
     
   }    
