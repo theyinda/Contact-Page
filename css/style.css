@@ -4,28 +4,21 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  /* font-size: 15px; */
   color: #fff;
-  font-weight: 300;
-  line-height: 26px;
+  /* font-weight: 300;
+  line-height: 26px; */
   text-rendering: optimizeLegibility;
 }
-.container{
-  width: 70%;
-  height: auto;
-}
+
 .contact{
   position: absolute;
   top:50px;
-  right: 150px;
-  width: 350px;
-  height: 400px;
+  left: -70px;
+  /* width: 350px; */
   background-color: #9272C2;
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -33,7 +26,8 @@ body {
 .header{
   padding: 15px 0;
   font-weight: 600;
-  padding-right: 40px;
+  font-size: 36px;
+  /* padding-right: 40px; */
 }
 .icons{
   display: flex;
@@ -45,14 +39,17 @@ body {
   margin-bottom: 0;
   margin-left: 25px;
   margin-right: 25px;
+  font-size: 20px;
 
 }
 .icons img{
-  margin-left: 20px; 
+  margin-left: 20px;
+  align-self: flex-start; 
 }
 .header-two{
   font-weight: 600;
-  border-bottom:2px solid white;
+  font-size: 36px;
+  border-bottom:1px solid white;
   display: inline-block;
   padding-bottom: 10px;
 }
@@ -60,11 +57,11 @@ body {
   color: #573F7B;
   font-weight: 600;
   padding: 20px 0;
-  font-size: 35px;
+  font-size: 36px;
 }
 .contact-page{
   position: relative;
-  width: 90%;
+  width: 70%;
   background-color: #F5F4FA;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -74,259 +71,56 @@ body {
 .form-control {
   background-color:rgba(255, 255, 255, 0.95);
   border-radius: 5px;
-  width: 300px;
-  margin-left: 0;
+  margin-bottom: 2rem;
   border: none;
 }
 ::placeholder {
   color: rgba(108, 87, 139, 0.8)  !important;
+  font-size: 18px !important;
 }
 .send-btn {
   color: #fff !important;
   background-color:#9272C2;
   border-radius: 5px;  
-  font-size: 20px;
+  font-size: 24px;
   padding: .313em 3.125em;
   margin-bottom: 30px;
 }
 .footer-icons {
   margin-top:10px;
+  padding-bottom: 30px;
 }
 
-  @media only screen and (max-width: 2560px) {
+@media only screen and (max-width: 992px) {
+  .contact{
+    position: static;
+    background-color: #9272C2;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+
+  .contact-page{
+    position: static;
+    width: 100%;
+    margin: 30px 0;
     
-    .container{
-      width: 100vh;
-      
-    }
-    .contact-page{
-      width: 100%;
-      background-color: #F5F4FA;
-      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-      margin: 20px auto;
-      
-    }
-    .form-heading{
-      color: #573F7B;
-      font-weight: 600;
-      padding: 20px 0;
-      font-size: 35px;
-      font-weight: 600;
-      text-align: center;
-    }
-    .contact{
-      margin: 8px auto 15px auto;
-      width: 42vh;
-      background-color: #9272C2;
-      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-    }
-    .form-control {
-      background-color:rgba(255, 255, 255, 0.95);
-      border-radius: 5px;
-      width: 40vh;
-      margin: auto;
-      border: none;
-    }
-    .send-btn {
-      color: #fff !important;
-      background-color:#9272C2;
-      border-radius: 5px;  
-      font-size: 20px;
-      padding: .313em 3.125em;
-      margin-left: 60px;
-  
-    }
-    .footer-icons {
-      margin-top: 10px;
-    }
-    
-  }  
-  
-  @media only screen and (max-width: 1024px) {
-    
-    .container{
-      width: 100vh;
-      margin: 0 auto;
-      
-    }
-    .contact-page{
-      position: relative;
-      width: 90vw;
-      background-color: #F5F4FA;
-      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-      margin: 20px 0;
-      
-    }
-    .form-heading{
-      color: #573F7B;
-      font-weight: 600;
-      padding: 20px 0;
-      font-size: 35px;
-      font-weight: 600;
-      text-align: center;
-    }
-    .contact{
-      position: absolute;
-      left: -30px;
-      margin: 8px auto 15px 10px;
-      width: 80%;
-      background-color: #9272C2;
-      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-    }
-    .form-control {
-      background-color:rgba(255, 255, 255, 0.95);
-      border-radius: 5px;
-      width: 40vw;
-      margin: auto;
-      border: none;
-    }
-    .send-btn {
-      color: #fff !important;
-      background-color:#9272C2;
-      border-radius: 5px;  
-      font-size: 20px;
-      padding: .313em 3.125em;
-      margin-left: 20px;
-  
-    }
-    .header{
-      font-size: 20px;
-      font-weight: 600;
-      padding-left: auto;
-    }
-    .icons{
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-      padding-left: 20px;
-    }
-    .icons p{
-      margin-bottom: 0;
-      margin-left: 25px;
-      font-size: 18px;
-      
-    
-    }
-    .icons img{
-      margin-left: 20px; 
-    }
-    .footer-icons {
-      margin-top: 10px;
-    }
-    
-  }        
- 
-  @media only screen and (max-width: 767px) {
-    
-    .container{
-      width: 100vw;
-      
-    }
-    .contact-page{
-      
-      width: 100%;
-      background-color: #F5F4FA;
-      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-      margin: 30px auto;
-      
-    }
-    .form-heading{
-      color: #573F7B;
-      font-weight: 600;
-      padding: 20px 0;
-      font-size: 35px;
-      font-weight: 600;
-      text-align: center;
-    }
-    .contact{
-      position: absolute;
-      margin: 20px auto;
-      top:500px;
-      left: 55px;
-      right: 15px;
-      width: 75%;
-      background-color: #9272C2;
-      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-    }
-    .form-control {
-      background-color:rgba(255, 255, 255, 0.95);
-      border-radius: 5px;
-      width: 45vw;
-      margin: auto;
-      border: none;
-    }
-    .send-btn {
-      color: #fff !important;
-      background-color:#9272C2;
-      border-radius: 5px;  
-      font-size: 20px;
-      padding: .313em 3.125em;
-      margin-left: 20%;
-  
-    }
-    .footer-icons {
-      margin-top: 10px;
-    }
-    
-  }        
-  @media only screen and (max-width: 414px) {
-    
-    .container{
-      width: 100vw;
-      
-    }
-    .contact-page{
-      position: relative;
-      max-width: 90vw;
-      background-color: #F5F4FA;
-      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-      margin: 30px auto;
-      
-    }
-    .form-heading{
-      color: #573F7B;
-      font-weight: 600;
-      padding: 20px 0;
-      font-size: 30px;
-      text-align: center;
-    }
-    .contact{
-      position: absolute;
-      margin: 20px auto;
-      top:500px;
-      left: 35px;
-      right: 15px;
-      width: 76vw;
-      max-height: 350px;
-      background-color: #9272C2;
-      box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.15);
-      border-radius: 10px;
-    }
-    .form-control {
-      background-color:rgba(255, 255, 255, 0.95);
-      border-radius: 5px;
-      width: 70vw;
-      margin: auto;
-      border: none;
-    }
-    .send-btn {
-      color: #fff !important;
-      background-color:#9272C2;
-      border-radius: 5px;  
-      font-size: 20px;
-      padding: .313em 3.125em;
-      margin-bottom: 30px;
-      margin-left: 65px;
-    }
-    .footer-icons {
-      margin-top: 0px;
-    }
-    
-  }    
+  }
+
+  .form-heading, .contact-btn {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .header, .header-two, .form-heading {
+    font-size: 25px;
+  }
+
+  .send-btn {
+    font-size: 18px;
+  }
+
+  .icons p, ::placeholder {
+    font-size: 14px;
+  }
+}
